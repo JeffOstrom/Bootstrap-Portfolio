@@ -27,7 +27,7 @@ p {
 }
 
 p:last-child {
-  margin-bottom: 0;
+  margin-left: 60px;
 }
 
 h1,
@@ -94,7 +94,7 @@ h3 {
   float: right;
   width: 100%;
   max-width: 270px;
-  padding: 30px;
+  padding: 5px;
   margin-bottom: 20px;
   background: #fff;
   border: 1px solid #ddd;
@@ -108,7 +108,7 @@ h3 {
   margin: 20px 0 25px;
   overflow: auto;
 }
-
+s
 .work:nth-child(even) {
   margin-right: 40px;
 }
@@ -141,7 +141,28 @@ h3 {
   margin-right: 25px;
 }
 
+.main-section {
+    float: left;
+    width: 100%;
+    max-width: 650px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
 
-
-
-
+.col-md-8{
+   float: left;
+    width: 100%;
+    max-width: 650px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+.social{
+    width: 62px;
+    height: 62px;
+    margin-top: 8px;
+    margin-right: 5px;
+}
