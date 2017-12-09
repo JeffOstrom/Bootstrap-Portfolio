@@ -1,107 +1,90 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>Bootstrap Portforlio</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <!-- Latest compiled and minified CSS -->
 
-    <!--Bootstrap-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Jeffrey Ostrom Portforlio</title>
+
+    <!--Bootstrap v3.3.7-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-<!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-<!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<!--CSS/style link-->
+    <!--CSS stylesheet link-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
    
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
+    <!--Bootstrap navbar-->
+     <nav class="navbar navbar-default">
+      <div class="container-fluid navbar-custom">
+
+        <!-- Mobile responsive display -->
+        <div class="row">
           <div class="navbar-header">
-              <a href="index.html" id="logo">Jeff Ostrom</a>
-          </div>
-          <ul class="nav navbar-nav navbar-right">
-          <li><a href="index.html">About</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-       </nav><!--Navigation bar-->
-      </header> 
-
-<!--Portfolio images section-->
-   <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Portfolio</h1>
-
-      <div class="work">
-        <img src="assets/images/hangman.jpeg" alt="hangman">
-
-        <h3>Hangman</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/rodrigo senna.jpeg" alt="RPG Game">
-
-        <h3>RPG Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/TalAtlas.jpeg" alt="Trivia Game">
-
-        <h3>Trivia Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/Yutaka Tsutano.jpeg" alt="Rutgers Info Widget">
-
-        <h3>Rutgers Info Widget</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/Krynsky.jpeg" alt="Rock Paper Scissors">
-
-        <h3>Rock Paper Scissors</h3>
-      </div>
-
-    </section>
-
-          </div>
-        </div>
-
-    <!--Social media links-->
-        <div class="col-md-4" id="sidepanel">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h3 class="panel-title" id="pantitle">Connect with Me</h3>
-                </div>
-                <hr class="connecthr" width="80%" noshade>
-                        
-                        <!-- Side Panel with buttons -->
-                  <div class="panel-body">
-                            <!-- Git Hub Icon Button -->
-                  <a href="https://github.com/JeffOstrom"><img src="assets/images/github.png" class="social" alt="GitHub" /></a>
-                  <a href="https://www.linkedin.com/in/jeffreyostrom/"><img src="assets/images/if_square-linkedin_317725.png" class="social" alt="LinkedIn" /></a>
-                   <a href="https://stackoverflow.com/"><img src="assets/images/stackoverflow.png" class="social" alt="Stack Overflow" /></a>
-                </div>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="col-xs-12 phone-nav">
+              <a class="navbar-brand" href="#" id="logo">Jeffrey Ostrom</a>
             </div>
           </div>
+
+          <!-- nav links, forms-->
+          <div class="collapse navbar-collapse" id="bs-navbar">
+            <ul class="nav navbar-nav navbar-right navbar-right-custom">
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="index.html">About</a></li>
+            </ul>
+          </div><!--navbar-collapse -->
+        </div>
+      </div><!--container-fluid -->
+    </nav>
+
+    <!--main section/bio-->
+      <div class="wrap">
+      <div class="container">
+        <section class="row">
+          <div class="col-md-8">
+            <article class="about-me-content">
+              <h1 class="about-me-header">Porfolio</h1>
+              <hr class="about-me-hr"/>
+              <p> </p>
+          </div>
+          <div class="col-md-4">
+
+            <!-- Start of Connect With Me Area -->
+            <section id="connect-with-me-area">
+              <div class="connect-with-me-content">
+                <h1 class="connect-with-me-header">Connect</h1>
+                <hr />
+                <a href="https://github.com/JeffOstrom"><img src="assets/images/github.png" class="social" alt="GitHub" /></a>
+                  <a href="https://www.linkedin.com/in/jeffreyostrom/"><img src="assets/images/if_square-linkedin_317725.png" class="social" alt="LinkedIn" /></a>
+                  <a href="https://stackoverflow.com/"><img src="assets/images/stackoverflow.png" class="social" alt="Stack Overflow" /></a>
+                </div>
+              </div>
+            </section>
+            <!-- End of the Connect -->
+
+          </div>
+        </section>
       </div>
-    </div> 
+    </div>
 
-  <!--sticky footer bottom-->
-   <div id="footer" class="navbar navbar-default navbar fixed-bottom">
-        <div class= "container">
-             <p>Copyright &copy; 2016 Jeffrey Ostrom</p>
-    </div> 
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!--footer bootstrap sticky-->
+      <footer class="footer navbar-fixed-bottom">
+        <div class="two-toned-footer-color"></div>
+        <p class="text-muted text-muted-footer text-center">
+          Copyright &copy; 2016 Jeffrey Ostrom
+        </p>
+    </footer>
+  
+    <!-- jQuery link-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Javascript link-->
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
