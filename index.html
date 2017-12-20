@@ -1,25 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
   <head>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Jeffrey Ostrom Portforlio</title>
+    <title>Jeffrey Ostrom Portfolio</title>
 
-    <!--Bootstrap v3.3.7-->
+    <!-- Boostrap Stylesheet -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!--CSS stylesheet link-->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-   
+
+    <!--CSS stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css" media="screen">
+
   </head>
+
   <body>
-    <!--Bootstrap navbar-->
-     <nav class="navbar navbar-default">
+    <!-- navbar -->
+    <nav class="navbar navbar-default">
       <div class="container-fluid navbar-custom">
 
-        <!-- Mobile responsive display -->
+        <!-- Toggle mobile display -->
         <div class="row">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -33,59 +35,67 @@
             </div>
           </div>
 
-          <!-- nav links, forms-->
-          <div class="collapse navbar-collapse" id="bs-navbar">
+          <!-- nav links, forms -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right navbar-right-custom">
-              <li><a href="contact.html" id="C">Contact</a></li>
-              <li><a href="portfolio.html" id="C">Portfolio</a></li>
-              <li><a href="index.html" id="C">About</a></li>
+              <li><a href="contact.html" id="N">Contact</a></li>
+              <li><a href="portfolio.html" id="N">Portfolio</a></li>
+              <li><a href="index.html" id="N">About</a></li>
             </ul>
-          </div><!--navbar-collapse -->
+          </div>
         </div>
-      </div><!--container-fluid -->
+      </div>
     </nav>
+    <!-- End nav-->
 
-    <!--main section/bio-->
-      <div class="wrap">
+    <!-- Content wrap -->
+    <div class="wrap">
       <div class="container">
         <section class="row">
           <div class="col-md-8">
             <article class="about-me-content">
               <h1 class="about-me-header">About Me</h1>
-              <img src="assets/images/jeff.jpg"alt="" id="jeff-image"/>
-              <p> Hello, my name is Jeff Ostrom. I'm currently enrolled in Northwestern University School of Professional Studies Coding Bootcamp with the expected graduation date of Febuary 2018. After 7 years of combined sales experience between technology and logistics, I decided to persue other career opportunities in the technology field. I have found that technology is my true passion and I look forward to growing my career in this field.</p>
+              <hr class="about-me-hr"/>
+              <img src="assets/images/jeff.png" alt="" id="jeff-image"/>
+              <p>Hello, my name is Jeff Ostrom. I'm currently enrolled in Northwestern University School of Professional Studies Coding Bootcamp with the expected graduation date of Febuary 2018. After 7 years of combined sales experience between technology and logistics, I decided to persue other career opportunities in the technology field. I have found that technology is my true passion and I look forward to growing my career in this field.</p>
             </article>
           </div>
           <div class="col-md-4">
-            <!-- Start of Connect With Me Area -->
+
+            <!-- Connect With Me Area -->
             <section id="connect-with-me-area">
               <div class="connect-with-me-content">
-                <h1 class="connect-with-me-header">Connect</h1>
-               
-                <a href="https://github.com/JeffOstrom"><img src="assets/images/github.png" class="social" alt="GitHub" /></a>
-                  <a href="https://www.linkedin.com/in/jeffreyostrom/"><img src="assets/images/if_square-linkedin_317725.png" class="social" alt="LinkedIn" /></a>
-                  <a href="https://stackoverflow.com/"><img src="assets/images/stackoverflow.png" class="social" alt="Stack Overflow" /></a>
+                <h1 class="connect-with-me-header">Connect With Me</h1>
+                <hr />
+                <div id="images">
+                  <a href="https://github.com/JeffOstrom"><img src="assets/images/github.png" class="connect-with-me-photo" alt="GitHub" /></a>
+                  <a href="https://www.linkedin.com/in/jeffreyostrom/"><img src="assets/images/linked.png" class="connect-with-me-photo" alt="LinkedIn" /></a>
+                  <a href="https://stackoverflow.com/"><img src="assets/images/stackoverflow.png" class="connect-with-me-photo" alt="Stack Overflow" /></a>
                 </div>
               </div>
             </section>
-            <!-- End of the Connect-->
+           <!-- end -->
 
           </div>
         </section>
       </div>
     </div>
+    <!-- End content wrap -->
 
-    <!--footer bootstrap sticky-->
-      <footer class="footer navbar-fixed-bottom">
-        <div class="two-toned-footer-color"></div>
-        <p class="text-muted text-muted-footer text-center">
-          Copyright &copy; 2016 Jeffrey Ostrom
-        </p>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="two-toned-footer-color"></div>
+      <p class="text-muted text-muted-footer text-center">
+           Copyright &copy; 2017 Jeffrey Ostrom
+      </p>
     </footer>
-  
-    <!-- jQuery link-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Javascript link-->
-    <script src="js/bootstrap.min.js"></script>
+    <!-- End footer -->
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
+
 </html>

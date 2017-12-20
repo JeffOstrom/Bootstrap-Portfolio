@@ -1,90 +1,99 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en-us">
   <head>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Jeffrey Ostrom Portforlio</title>
+    <title>Bootstrap Basic Portfolio</title>
 
-    <!--Bootstrap v3.3.7-->
+    <!-- Boostrap Stylesheet -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!--CSS stylesheet link-->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-   
+
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css" media="screen">
+
   </head>
+
   <body>
-    <!--Bootstrap navbar-->
-     <nav class="navbar navbar-default">
+
+    <!-- Start navbar -->
+    <nav class="navbar navbar-default">
       <div class="container-fluid navbar-custom">
 
-        <!-- Mobile responsive display -->
-        <div class="row">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <div class="col-xs-12 phone-nav">
-              <a class="navbar-brand" href="#" id="logo">Jeffrey Ostrom</a>
-            </div>
-          </div>
-
-          <!-- nav links, forms-->
-          <div class="collapse navbar-collapse" id="bs-navbar">
-            <ul class="nav navbar-nav navbar-right navbar-right-custom">
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="portfolio.html">Portfolio</a></li>
-              <li><a href="index.html">About</a></li>
-            </ul>
-          </div><!--navbar-collapse -->
+        <!-- Brand/Toggle for mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#" id="logo">Jeffrey Ostrom</a>
         </div>
-      </div><!--container-fluid -->
-    </nav>
 
-    <!--main section/Contact information-->
-      <div class="wrap">
+        <!-- Collect the nav links, forms, toggling-->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right navbar-right-custom">
+            <li><a href="contact.html" id="N">Contact</a></li><span class="pipe"></span>
+            <li><a href="portfolio.html" id="N">Portfolio</a></li><span class="pipe"></span>
+            <li><a href="index.html" id="N">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End navbar -->
+
+    <!-- Start content wrap-->
+    <div class="wrap">
       <div class="container">
         <section class="row">
           <div class="col-md-8">
             <article class="about-me-content">
               <h1 class="about-me-header">Contact Information</h1>
+              <hr>
               <h2> Jeffrey Ostrom </h2>
               <h2> Phone: 630-709-3180</h2>
               <h2> Email: <a href="j.ostrm@gmail.com">j.ostrm@gmail.com</a></h2>
           </div>
           <div class="col-md-4">
 
-            <!-- Start of Connect With Me Area -->
+            <!-- connect with me -->
             <section id="connect-with-me-area">
               <div class="connect-with-me-content">
-                <h1 class="connect-with-me-header">Connect</h1>
-                <a href="https://github.com/JeffOstrom"><img src="assets/images/github.png" class="social" alt="GitHub" /></a>
-                  <a href="https://www.linkedin.com/in/jeffreyostrom/"><img src="assets/images/if_square-linkedin_317725.png" class="social" alt="LinkedIn" /></a>
-                  <a href="https://stackoverflow.com/"><img src="assets/images/stackoverflow.png" class="social" alt="Stack Overflow" /></a>
+                <h1 class="connect-with-me-header">Connect With Me</h1>
+                <hr />
+                <div id="images">
+                  <a href="https://github.com/JeffOstrom"><img src="assets/images/github.png" class="connect-with-me-photo" alt="GitHub" /></a>
+                  <a href="https://www.linkedin.com/in/jeffreyostrom/"><img src="assets/images/linked.png" class="connect-with-me-photo" alt="LinkedIn" /></a>
+                  <a href="https://stackoverflow.com/"><img src="assets/images/stackoverflow.png" class="connect-with-me-photo" alt="Stack Overflow" /></a>
                 </div>
               </div>
             </section>
-            <!-- End of the Connect-->
 
+            <!-- End connect with me -->
           </div>
         </section>
       </div>
     </div>
+    <!-- End content wrap -->
 
-    <!--footer bootstrap sticky-->
-    <footer class="footer navbar-fixed-bottom">
-        <div class="two-toned-footer-color"></div>
-        <p class="text-muted text-muted-footer text-center">
-          Copyright &copy; 2016 Jeffrey Ostrom
-        </p>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="two-toned-footer-color"></div>
+      <p class="text-muted text-muted-footer text-center">
+        Copyright &copy; 2017 Jeffrey Ostrom
+      </p>
     </footer>
-  
-    <!-- jQuery link-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Javascript link-->
-    <script src="js/bootstrap.min.js"></script>
+    <!-- End footer -->
+
+    <!-- jQuery CDN -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
   </body>
+
 </html>
