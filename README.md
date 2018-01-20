@@ -14,7 +14,8 @@ Built With
 
 Resources
 -----------------------------------------------------------------------------
-- None
+- Photo by Sawyer Bengtson on Unsplash
+- Photo by Matthew Hamilton on Unsplash
 
 Contributors
 -----------------------------------------------------------------------------
