@@ -5,7 +5,7 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
 /*  /* Visual */
-  background-image: url("../images/city.jpg");
+  background-image: url("../images/bridge.jpg");
    background-repeat: no-repeat;
   background-size: 100%;
 
@@ -87,7 +87,7 @@ color: #fff;
   margin-top: 32px;
 
   /* Visual */
-  background-color: #fff;
+  background-color: #B7B5B5;
 }
 
 .about-me-content > p {
@@ -97,7 +97,7 @@ color: #fff;
   /* Typography */
   font-size: 16px;
   line-height: 30px;
-  color: #bbc;
+  color: #2D3E49
 }
 
 #jeff-image {
@@ -121,7 +121,7 @@ color: #fff;
   margin-top: 32px;
 
   /* Visual */
-  background-color: #fff;
+  background-color: #B7B5B5
 }
 
 #id{
@@ -267,7 +267,7 @@ color: #fff;
   margin-bottom: 200px;
 
   /* Visual */
-  background-color: #fff;
+  background-color: #B7B5B5;
 }
 
 .hr {
