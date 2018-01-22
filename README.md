@@ -3,6 +3,8 @@ Synopsis
 
 - Jeffrey Ostrom portfolio website
 
+- Contact information & Portfolio
+
 Built With
 -----------------------------------------------------------------------------
 - Bootstrap 3.3.7
